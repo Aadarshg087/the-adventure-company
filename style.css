@@ -137,10 +137,12 @@ main {
 
 .section2 {
   margin-top: 5rem;
+  display: flex;
 }
 
 .container5 {
   width: 50%;
+
   padding: 2rem 2rem;
 }
 .container5 h2 {
@@ -161,4 +163,138 @@ main {
   background-color: #0e664c;
   color: #d9fff4;
   border: 0px;
+  margin-top: 2rem;
+}
+
+.container6 {
+  display: flex;
+  margin-left: 7rem;
+  width: 50%;
+}
+.data-items {
+  border: 2px solid black;
+  width: 80%;
+  text-align: center;
+  padding: 2rem 0rem;
+  border-radius: 5px;
+}
+.data-flex1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  align-items: center;
+}
+.data-flex2 {
+  display: flex;
+  align-items: center;
+}
+.data2 h2 {
+  font-size: 2rem;
+}
+.data2 h3 {
+  margin-bottom: 1rem;
+}
+.data3 h3 {
+  margin-bottom: 1rem;
+}
+.g {
+  color: #70dc6a;
+}
+.r {
+  color: red;
+}
+.data1 {
+  text-align: left;
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.data1 img {
+  width: 5rem;
+}
+
+.section3 {
+  margin-top: 5rem;
+}
+.section3-heading {
+  margin-bottom: 2rem;
+}
+.section3-heading h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.section3-heading p {
+  text-align: center;
+  font-family: poppins;
+}
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0rem 2rem;
+}
+.product1,
+.product2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product1-content,
+.product2-content {
+  /* width: 50%; */
+  padding: 0rem 2rem;
+  margin: auto;
+}
+
+.product1-content h3,
+.product2-content h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.product1-content p,
+.product2-content p {
+  width: 70%;
+  margin-bottom: 2rem;
+  font-family: poppins;
+}
+.product1 img,
+.product2 img {
+  width: 15rem;
+}
+.products button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 0;
+  background-color: #0e664c;
+  color: #d9fff4;
+  border: 0px;
+}
+
+.section4 {
+  margin-top: 5rem;
+  text-align: center;
+}
+.section4 button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border-radius: 0;
+  background-color: #0e664c;
+  color: #d9fff4;
+  border: 0px;
+}
+
+.section5 {
+  border: 2px solid black;
+  margin-top: 5rem;
+}
+.section5 h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
 }
